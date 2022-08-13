@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using Exercise_Order_Csharp.Entities;
+
+namespace Exercise_Order_Csharp.Entities
+{
+    class Product
+    {
+        public string Name { get; set; }
+        public double Price { get; set; }
+
+        public Product()
+        {
+        }
+
+        public Product(string name, double price)
+        {
+            Name = name;
+            Price = price;
+        }
+    }
+}
